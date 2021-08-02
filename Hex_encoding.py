@@ -2,7 +2,7 @@
 #Hex Encoding/Decoding
 
 def intro():
-    decision = input("Would you like to encode or decode Base64? (encode/decode) ")
+    decision = input("Would you like to encode or decode Hex? (encode/decode) ")
     decision = decision.upper()
 
     if (decision == 'ENCODE'):
